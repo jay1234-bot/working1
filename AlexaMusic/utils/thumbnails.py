@@ -90,7 +90,7 @@ async def gen_thumb(videoid):
         name_font = ImageFont.truetype("assets/font.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
-        draw.text((5, 5), f"ᴛ-ꜱᴇʀɪᴇꜱ ᴍᴜꜱɪᴄ", fill="white", font=name_font)
+        draw.text((5, 5), f"T-SERIES MUSIC", fill="white", font=name_font)
         draw.text(
             (600, 150),
             "NOW PLAYING",
@@ -134,7 +134,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 550),
-            f"Owner : ᴍʀ.ᴋʀɪꜱʜᴀɴ",
+            f"Owner : KRISHAN ",
             (255, 255, 255),
             font=arial,
         )
@@ -206,7 +206,7 @@ async def gen_qthumb(videoid):
         name_font = ImageFont.truetype("assets/font.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
-        draw.text((5, 5), f"ᴛ-ꜱᴇʀɪᴇꜱ ᴍᴜꜱɪᴄ", fill="white", font=name_font)
+        draw.text((5, 5), f"T-SERIES MUSIC", fill="white", font=name_font)
         draw.text(
             (600, 150),
             "ADDED THIS SONG IN QUEUE",
@@ -250,7 +250,7 @@ async def gen_qthumb(videoid):
         )
         draw.text(
             (600, 550),
-            f"Owner : ᴍʀ . ᴋʀɪꜱʜᴀɴ",
+            f"Owner : KRISHAN",
             (255, 255, 255),
             font=arial,
         )
